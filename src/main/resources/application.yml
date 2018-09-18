@@ -38,6 +38,8 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
+  application:
+    name: quartz-cluster-node-first
   mvc:
     view:
       prefix: /WEB-INF/jsp/
